@@ -1,0 +1,278 @@
+::-webkit-scrollbar {
+    width: 3.5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #007bfe;
+}
+
+.base {
+    height: auto;
+    width: 100%;
+    text-align: right;
+    direction: rtl;
+    margin-bottom: 100px;
+}
+
+.base .title {
+    text-shadow: 2px 2px #837f7f;
+    padding-right: 40px;
+    padding-top: 70px;
+}
+
+.base .menu {
+    margin-top: 40px;
+}
+
+.base .books {
+    margin-top: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 600px;
+    overflow: scroll;
+}
+
+.base .books ::-webkit-scrollbar-thumb {
+    background-color: #007bfe;
+}
+
+.base .loan-book {
+    margin-top: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.base .loan-book .loan {
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.base .loan-book .loan ::-webkit-scrollbar-thumb {
+    background-color: #007bfe;
+}
+
+.base .loan-book .my-loan {
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.base .loan-book .my-loan ::-webkit-scrollbar-thumb {
+    background-color: #007bfe;
+}
+
+.base .group-book {
+    margin-top: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.base .group-book .column-group {
+    background-color: aqua;
+    width: 200px;
+    height: 500px;
+    overflow-y: scroll;
+    float: right;
+}
+
+.base .group-book .column-group ::-webkit-scrollbar-thumb {
+    background-color: #007bfe;
+}
+
+.base .group-book .table-group {
+    width: 1000px;
+    height: 500px;
+    float: left;
+    background-color: aquamarine;
+}
+
+.base .group-book .table-group ::-webkit-scrollbar-thumb {
+    background-color: #007bfe;
+}
+
+.base .search-user .search-book {
+    margin-top: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.base .search-user .search-book hr {
+    border: 8px solid #65f178;
+    border-radius: 5px;
+}
+
+.base .search-user .search-book h5 {
+    display: inline-block;
+}
+
+.base .search-user .search-book .book-name {
+    width: 500px;
+    border: 2px solid #65f178;
+    border-radius: 4px;
+    height: 50px;
+    padding: 13px;
+}
+
+.base .search-user .search-book .book-name:hover {
+    border: 2px solid #84839c;
+}
+
+.base .search-user .search-book button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.base .search-user .search-book button:hover {
+    background-color: #217e26;
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.base .search-user .table-search {
+    margin-top: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.base .profile {
+    margin-top: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.base .profile .information {
+    display: none;
+}
+
+.base .profile .information h5 {
+    display: inline-block;
+}
+
+.base .profile .information button {
+    border-radius: 15px;
+    background-color: #4c93af;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.base .profile .information button:hover {
+    background-color: #215c7e;
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.base .profile .information .my-loan {
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.base .profile .information .my-loan ::-webkit-scrollbar-thumb {
+    background-color: #007bfe;
+}
+
+.base .profile .log-sign .wrapper-1 {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.base .profile .log-sign .form-signin {
+    max-width: 380px;
+    padding: 15px 35px 45px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.base .profile .log-sign .form-signin .form-signin-heading,
+.base .profile .log-sign .form-signin .checkbox {
+    margin-bottom: 30px;
+}
+
+.base .profile .log-sign .form-signin .checkbox {
+    font-weight: normal;
+}
+
+.base .profile .log-sign .form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+}
+
+.base .profile .log-sign .form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.base .profile .log-sign .form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.base .profile .log-sign .form-signin input[type="password"] {
+    margin-bottom: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.base .profile .log-sign .wrapper-2 {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.base .profile .log-sign .form-signin {
+    max-width: 380px;
+    padding: 15px 35px 45px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.base .profile .log-sign .form-signin .form-signin-heading,
+.base .profile .log-sign .form-signin .checkbox {
+    margin-bottom: 30px;
+}
+
+.base .profile .log-sign .form-signin .checkbox {
+    font-weight: normal;
+}
+
+.base .profile .log-sign .form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+}
+
+.base .profile .log-sign .form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.base .profile .log-sign .form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.base .profile .log-sign .form-signin input[type="password"] {
+    margin-bottom: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+/*# sourceMappingURL=base.css.map */
